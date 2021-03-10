@@ -579,3 +579,83 @@ ul.our-main-menu li:hover>ul {
     font-size: 31px;
     margin-left: 21px;
 }
+
+.values-item{}
+.values-item h1 {
+    margin-bottom: 25px;
+    font-size: 45px;
+    font-weight: 600;
+}
+.values-item ul {
+	list-style: none;
+	padding-left: 0;
+}
+.values-item ul li{}
+.values-item ul li span {
+	display: inline-block;
+	font-size: 37px;
+	color: #e73c3e;
+	width: 40px;
+}
+.values-item ul li span i {
+	position: relative;
+	top: 10px;
+	left: 6px;
+}
+.values-item ul li h5 {
+	display: inline-block;
+	margin-left: 18px;
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 6px;
+}
+.values-item ul li p {
+	margin-left: 63px;
+	margin-bottom: 2px;
+	color: #606060;
+}
+.values-image {
+    margin-top: 45px;
+}
+/* professional-service-tab-section */
+.professional-service-tab-section{
+    background-color: #f9fafb;
+    padding: 100px 0;
+}
+.main-heading {
+	width: 650px;
+	margin: auto;
+}
+.main-heading h6 {
+	color: #e73c3e;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.main-heading h2 {
+	font-weight: 700;
+	font-size: 38px;
+	margin-bottom: 23px;
+}
+.main-heading p {
+	padding: 0 30px 0 30px;
+	color: #606060;
+}
+.tab-button span {
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    line-height: 80px;
+    background-color: #fff !important;
+    border-radius: 50%;
+    box-shadow: 4px 4px 10px #0003;
+    font-size: 30px;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .tab-button span {
+	color: #e73c3e;
+	background-color: transparent;
+}
+.professional-ice-button {
+	padding: 25px;
+	background-color: transparent !important;
+
+}
