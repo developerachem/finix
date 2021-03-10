@@ -337,10 +337,12 @@ ul.our-main-menu li:hover>ul {
         transform: scale(0);
         opacity: 0.3;
     }
-    50%{
+
+    50% {
         opacity: .8;
     }
-    100%{
+
+    100% {
         transform: scale(1.2);
         opacity: .2;
     }
@@ -431,6 +433,7 @@ ul.our-main-menu li:hover>ul {
 /* Pricing Section */
 .pricing-section {
     padding: 100px 0;
+    padding-bottom: 25px;
 }
 
 .pricing-content {
@@ -449,64 +452,76 @@ ul.our-main-menu li:hover>ul {
     padding: 0 20px;
 }
 
-.pricing-items-left {
+.pricing-heading h1 {
+    font-size: 35px !important;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.pricing-items-left {}
+
+.pricing-items-left ul {
+    list-style: none;
     position: relative;
 }
-.pricing-items-left::after{
+
+.pricing-items-left ul::before {
     content: "";
+    height: calc(100% - 100px);
     width: 1px;
-    height: 400px;
     background-color: #e83b3e;
     position: absolute;
-    top: 140px;
-    left: 20px;
+    top: 26px;
+    left: 21px;
 
 }
 
-.pricing-items-left h1 {
-    font-weight: 400;
-    font-size: 35px;
-    margin-bottom: 35px;
+.pricing-items-left ul li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 30px;
 }
 
-.pricing-items-left span {
+.pricing-items-left ul li::before {
+    content: attr(data-counter);
     height: 40px;
     width: 40px;
-    border: 1px solid #e73c3e;
-    background: #fff;
-    display: inline-block;
-    text-align: center;
+    border: 1px solid #e83b3e;
+    background-color: #fff;
     border-radius: 50%;
+    position: absolute;
+
+    left: -31px;
+    top: 0;
+    text-align: center;
+    line-height: 37px;
     font-size: 23px;
-    line-height: 40px;
-    margin-right: 10px;
-    color: #e73c3e;
-    z-index: 11 !important;
-    position: relative;
+    color: #e83b3e;
+    font-weight: 600;
 }
 
-.pricing-items-left h3 {
-    display: inline-block;
-    font-size: 21px;
-    margin-bottom: 13px;
+.pricing-items-left ul li h4 {
+    margin-bottom: 15px;
 }
 
-.pricing-items-left p {
+.pricing-items-left ul li p {
     color: #606060;
-    margin-left: 53px;
-    margin-bottom: 25px;
-    line-height: 30px;
+    line-height: 1.7em;
 }
-.pricing-form{
-    background-color:#fdebeb ;
+
+.pricing-form {
+    background-color: #fdebeb;
 }
+
 .btn.btn-css.btn-form {
     width: 451px;
     position: relative;
 }
-.form-select option:hover{
+
+.form-select option:hover {
     background-color: #e83b3e !important;
 }
+
 .btn.btn-css.btn-form::after {
     content: "";
     position: absolute;
@@ -519,6 +534,48 @@ ul.our-main-menu li:hover>ul {
     transition: 1s;
     z-index: -1;
 }
+
 .btn.btn-css.btn-form:hover::after {
     left: -770px;
+}
+
+/* pnone-number-section */
+.pnone-number-content {
+    background-color: #e83b3e;
+    border-radius: 6px;
+}
+
+.pnone-number-text {
+    border-right: 1px solid #dddddd8a;
+}
+
+.pnone-number-text h1 {
+    font-size: 32px;
+    padding: 3px;
+    line-height: 45px;
+    color: white;
+}
+
+.pnone-number {
+    height: 100%;
+    margin-left: 32px;
+}
+
+.pnone-number span {
+    font-size: 44px;
+    color: #e83b3e;
+    height: 65px;
+    width: 65px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 65px;
+}
+
+.pnone-number a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 31px;
+    margin-left: 21px;
 }
