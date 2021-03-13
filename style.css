@@ -869,12 +869,12 @@ ul.our-main-menu li:hover>ul {
 
 .review-img-button-btn::after {
     content: "";
-    height: 79%;
-    width: 79%;
+    height: 80%;
+    width: 80%;
     background-color: #e83b3e;
     border-radius: 50%;
     position: absolute;
-    top: 13%;
+    top: 12%;
     left: 16%;
     transform: scale(0);
     transition: .5s;
