@@ -7,6 +7,7 @@ img {
     max-width: 100%;
 }
 
+
 h1,
 h2,
 h3,
@@ -20,6 +21,10 @@ a {
 body .container-fluid {
     max-width: 1240px;
     margin: auto;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 /* main menu css */
@@ -137,7 +142,7 @@ ul.our-main-menu li:hover>ul {
     border-radius: 46%;
     background-color: #111;
     top: -14%;
-    left: 5%;
+    left: 10%;
     transition: 0.6s;
     z-index: -1;
 }
@@ -372,7 +377,7 @@ ul.our-main-menu li:hover>ul {
     padding: 59px 30px 30px 30px;
     position: relative;
     overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.178);
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.07);
     z-index: 1;
     transition: .5s;
 }
@@ -398,7 +403,7 @@ ul.our-main-menu li:hover>ul {
     content: "";
     background-color: #fdebeb;
     height: 250px;
-    width: 250px;
+    width: 95%;
     border-radius: 50%;
     position: absolute;
     left: 6px;
@@ -551,7 +556,7 @@ ul.our-main-menu li:hover>ul {
 
 .pnone-number-text h1 {
     font-size: 32px;
-    padding: 10px;
+    padding: 3px;
     line-height: 45px;
     color: white;
 }
@@ -869,13 +874,13 @@ ul.our-main-menu li:hover>ul {
 
 .review-img-button-btn::after {
     content: "";
-    height: 70%;
-    width: 70%;
+    height: 79%;
+    width: 79%;
     background-color: #e83b3e;
     border-radius: 50%;
     position: absolute;
-    top: 15%;
-    left: 17%;
+    top: 13%;
+    left: 16%;
     transform: scale(0);
     transition: .5s;
 }
@@ -1047,7 +1052,8 @@ ul.our-main-menu li:hover>ul {
     font-size: 19px;
     transition: .5s;
 }
-.footer-menu-about ul li a:hover{
+
+.footer-menu-about ul li a:hover {
     color: tomato;
 }
 
@@ -1130,10 +1136,12 @@ ul.our-main-menu li:hover>ul {
     text-decoration: none;
     color: #fff;
 }
-.footer-menu-contact a{
+
+.footer-menu-contact a {
     transition: .5s;
 }
-.footer-menu-contact a:hover{
+
+.footer-menu-contact a:hover {
     color: tomato;
 }
 
@@ -1153,4 +1161,491 @@ ul.our-main-menu li:hover>ul {
 
 .footer-bottom p a:hover {
     color: tomato;
+}
+
+
+
+/* Page page */
+/* breadcrumb Section */
+.breadcrumb-section {
+    background-image: url(https://templates.envytheme.com/finix/default/assets/img/page-title/bg.jpg);
+    padding: 150px 0;
+    background-size: cover;
+    background-position: center -73px;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.719);
+}
+
+.our-breadcrumb {}
+
+.our-breadcrumb ol {
+    background: none;
+}
+
+.our-breadcrumb ol li {
+    font-weight: 600;
+}
+
+.our-breadcrumb ol li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #e83b3e !important;
+    font-size: 17px;
+}
+
+/* Page About Section */
+.page-about-section {
+    background-color: #f9fafb;
+    padding: 100px 0;
+}
+
+.about-items-img.page-about {
+    position: relative;
+}
+
+.about-items-img.page-about img {}
+
+.about-items-img.page-about img:nth-child(1) {
+    position: absolute;
+    top: 11px;
+    left: -66px;
+    width: 460px;
+    max-width: inherit;
+}
+
+.about-items-img.page-about img:nth-child(2) {
+    position: absolute;
+    bottom: 44px;
+    left: 139px;
+    width: 473px;
+}
+
+.page-about-content {
+    position: absolute;
+    bottom: -1px;
+    right: -11px;
+    background-color: white;
+    box-shadow: 5px 5px 10px #0000001c;
+}
+
+.page-about-text {
+    position: relative;
+    padding: 23px 45px;
+}
+
+.page-about-text::before {
+    content: "";
+    height: 100%;
+    width: 3px;
+    background-color: #e83b3e;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.page-about-content h1 {
+    font-size: 75px;
+    margin-right: 20px;
+    font-weight: 200;
+}
+
+.page-about-content p {
+    font-size: 30px;
+}
+
+.page-about-coontent {
+    width: 600px;
+}
+
+/* page-about-admin-section */
+.center-items-content {
+    width: 600px;
+    margin: auto;
+}
+
+.center-items-content h6 {}
+
+.center-items-content h1 {}
+
+.center-items-content p {
+    line-height: 1.9em;
+}
+
+.page-about-admin {
+    position: relative;
+    background-color: white;
+    box-shadow: 10px 10px 20px #e83b3e14;
+    padding: 35px 46px;
+}
+
+.page-about-admin-section {
+    padding: 100px 0;
+}
+
+.page-about-admin .page-our-admin {}
+
+.page-about-admin .page-our-admin img {
+    width: 65px;
+    margin-right: 18px;
+}
+
+.page-about-admin .page-our-admin .name {
+    position: relative;
+    top: 10px;
+}
+
+.page-about-admin .page-our-admin .name h6 {
+    color: #e83b3e;
+    margin-bottom: 5px !important;
+}
+
+.page-about-admin .page-our-admin .name p {
+    font-size: 15px;
+    color: #212529;
+    margin-top: 0 !important;
+}
+
+.page-about-admin p {
+    line-height: 1.8em;
+    margin-top: 20px !important;
+    color: #606060;
+    margin-bottom: 0 !important;
+}
+
+.page-about-admin span {
+    position: absolute;
+    top: 1px;
+    right: 24px;
+    font-size: 95px;
+    opacity: .1;
+    color: #e83b3e;
+}
+
+/* slick slider start */
+.page-about-carousel {
+    background-color: #fafbfc;
+    padding: 80px 0;
+}
+
+.slick-slide {
+    margin: 0px 30px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-list:focus {
+    outline: none;
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.slick-track:before,
+.slick-track:after {
+    display: table;
+    content: "";
+}
+
+.slick-track:after {
+    clear: both;
+}
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+[dir="rtl"] .slick-slide {
+    float: right;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-slide.slick-loading img {
+    display: none;
+}
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+/* Slick Slider End */
+
+/* page-testimonial-section */
+.page-testimonial-section {
+    padding: 100px 0 200px 0;
+}
+
+.about-page-footer {
+    position: relative;
+    padding-top: 130px;
+}
+
+.page-pnone-number-section {
+    position: absolute;
+    top: -138px;
+    left: 8%;
+}
+
+/* Page Service section */
+.page-service-item.choose-items {
+    padding-top: 36px;
+}
+
+.page-service-item.choose-items::after {
+    content: "";
+
+    height: 253px;
+    width: 93%;
+    left: 12px;
+}
+
+.page-service-item.choose-items span {
+    height: 100px;
+    width: 100px;
+    box-shadow: 1px 8px 10px #0000000f;
+}
+
+.page-service-item.choose-items span i {
+    font-size: 60px;
+}
+
+.page-service-item.choose-items h2 {}
+
+.page-service-item.choose-items p {
+    line-height: 2em;
+}
+
+.page-service-item.choose-items a {
+    color: #e83b3e;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 19px;
+    display: inline-block;
+    transition: .5s;
+}
+
+.page-service-item.choose-items a:hover {
+    letter-spacing: 1px;
+}
+
+/* Funding- Page */
+
+/* page-about-funding-section */
+.funding-proses-section {
+    padding: 100px 0;
+}
+
+.main-heading-text.page-about-content-text h1 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+
+.main-heading-text.page-about-content-text h5 {
+    margin-top: -10px;
+}
+
+.main-heading-text.page-about-content-text ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+
+.main-heading-text.page-about-content-text ul li span {
+    color: #e83b3e;
+    font-family: rubik, sans-serif;
+}
+
+.funding-proses span {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 43px #0000001F;
+    line-height: 100px;
+    font-size: 45px;
+    color: #e83b3e;
+    margin-bottom: 25px;
+}
+
+
+.funding-proses h3 {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.funding-proses-items {
+    position: relative;
+}
+
+.before-img img {
+    position: absolute;
+    top: 64px;
+    left: -169px;
+}
+
+.aftar-img img {
+    position: absolute;
+    top: 14px;
+    left: 164px;
+}
+
+.funding-apply-section {
+    background-color: #f9fafb;
+    padding: 100px 0;
+}
+
+.apply-form {
+    width: 850px;
+    margin: auto;
+}
+
+.apply-form input {
+    padding: 15px 18px;
+    margin-top: 5px;
+    border-radius: 0 !important;
+    background-color: transparent !important;
+    box-shadow: inherit !important;
+}
+
+.funding-checkbox {
+    display: flex;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    border: 2px solid red;
+    border-radius: 3px !important;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+    outline: none;
+    position: relative;
+    transition: .5s;
+}
+
+input[type="checkbox"]:checked {
+    background-color: red !important;
+    color: white !important;
+}
+
+input[type="checkbox"]::after {
+    content: "\f00c";
+    font-family: "FontAwesome";
+    font-weight: 900;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+
+input[type="checkbox"]:checked::after {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    transform: scale(0);
+    transition: .5s;
+    opacity: 1;
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+    opacity: 0;
+}
+
+.funding-checkbox label {
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
+
+.funding-checkbox label a {
+    display: inline-block;
+    text-decoration: none;
+    color: red;
 }
