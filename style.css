@@ -3,6 +3,10 @@ p {
     font-family: "Roboto", sans-serif;
 }
 
+.css-h100 {
+    height: 100vh;
+}
+
 img {
     max-width: 100%;
 }
@@ -1208,7 +1212,7 @@ ul.our-main-menu li:hover>ul {
 
 .about-items-img.page-about img:nth-child(1) {
     position: absolute;
-    top: 11px;
+    top: -18px;
     left: -66px;
     width: 460px;
     max-width: inherit;
@@ -1649,3 +1653,54 @@ input[type="checkbox"]:checked::before {
     text-decoration: none;
     color: red;
 }
+
+/* order-complite-section */
+.order-complite-section {
+    height: 100vh;
+    background-color: #515b60;
+}
+
+.order-content {
+    max-width: 600px;
+}
+
+.order-content span {
+    font-size: 200px;
+    color: #e83b3e;
+}
+
+.order-content h1 {
+    font-size: 60px;
+    margin-top: -50px;
+}
+
+.order-content h2 {
+    margin: 20px 0;
+}
+
+.order-content p {
+    line-height: 1.7em;
+}
+
+/* apply-form-section */
+
+.apply-form-section {}
+
+.apply-form input {
+    box-shadow: inherit !important;
+}
+
+.apply-form select {
+    height: 55px;
+    position: relative;
+    top: 6px;
+    border-radius: 0 !important;
+    box-shadow: inherit !important;
+}
+.apply-form .button{
+
+    margin-left: 207px;
+    margin-top: 14px;
+}
+
+
